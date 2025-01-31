@@ -1,16 +1,40 @@
 body {
-    margin: 0;
+    margin: auto;
+    width: 80%;
     text-align: center;
     background-color: lightgrey;
+    font-family: "Inter", serif;
 }
+
 
 img {
     width: 100px;
+    border-radius: 50%;
 }
 
 #hero {
     background-image: url("/img/tokyo.png");
     background-size: cover;
+    background-position: center;
     width: 720px;
     height: 343px;
+}
+
+#hero-title {
+    color: white;
+}
+
+.img-round {
+    transition: all 1s ease;
+    filter: saturate(10%);
+}
+
+.img-round:hover {
+    filter: saturate(100%);
+}
+
+#img-guide {
+    border-radius: 0%;
+    width: 180px;
+    height: 249px;
 }
