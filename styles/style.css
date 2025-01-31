@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("/img/tokyo.png");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+}
