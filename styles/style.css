@@ -23,7 +23,7 @@ img {
 }
 
 #hero {
-    background-image: url("/img/tokyo.png");
+    background-image: url("/img/tokyo.webp");
     background-size: cover;
     width: 720px;
     height: 343px;
