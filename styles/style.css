@@ -6,6 +6,12 @@ body {
     font-family: "Inter", serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 720px;
+}
 
 img {
     width: 100px;
@@ -18,10 +24,19 @@ img {
     background-position: center;
     width: 720px;
     height: 343px;
+    margin: none;
 }
 
 #hero-title {
     color: white;
+    margin: 0;
+}
+
+.activities {
+    background-color: grey;
+    margin: none;
+    width: 720px;
+    height: 380px;
 }
 
 .img-round {
