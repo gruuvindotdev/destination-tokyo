@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: lightgrey;
+    background-color: white;
     font-family: "Inter", serif;
     margin: 0;
 }
@@ -79,6 +79,37 @@ img {
 
 .img-round:hover {
     filter: saturate(100%);
+}
+
+.guide {
+    background-color: #D4D4D8;
+    width: 720px;
+    height: 400px;
+}
+
+#guide-card {
+    background-color: #3B3B43;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: 0 5px 0px 0 #E35448;
+}
+
+#guide-text {
+    color: white;
+}
+
+#guide-card h3 {
+    font-size: 24px;
+}
+
+#guide-card p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
 }
 
 #img-guide {
